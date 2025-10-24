@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-204156446634566851
+--- !u!114 &-3210027234569392500
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Color
-  m_Shader: {fileID: -6465566751694194690, guid: 87195078f582b814b86af23a1a72f18c,
+  m_Name: CustomLightingColor
+  m_Shader: {fileID: -6465566751694194690, guid: 317e84b977fc5384396eb96736a23891,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseTexture2D:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0f15838c7fc03c44a89f4e469c13bcf5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,10 +55,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Fresnel_Power: 3.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Wave_Speed: 2
-    - _Wave_Strength: 0.5
     m_Colors:
-    - _BaseColor: {r: 0.08784264, g: 0.6375698, b: 0.8867924, a: 0}
+    - _BaseColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
+    - _FresnelColor: {r: 7.018868, g: 5.144902, b: 0, a: 1}
   m_BuildTextureStacks: []
